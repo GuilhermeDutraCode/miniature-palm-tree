@@ -1,9 +1,41 @@
 h1 {
+    
     font-size: 50px;
     text-align: center;
-    color: purple;
+    color: rgb(216, 29, 216);
 }
 
 body {
-    background-color: rgb(220, 216, 216);
+    background-color: rgb(104, 4, 44);
 }
+
+img {
+    position: relative;
+    left: 66em;
+    top: -38em;
+}
+
+.game-board
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+  background-color: #e869be;
+  color: #fff;
+  border: 6px solid #f80acd;
+  border-radius: 10px;
+  
+	
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr); 
+}
+
+.grid-item {
+    border: 6px solid #c12d9c;
+    font-size: 80px;
+    text-align: center;
+   color: rgb(99, 3, 104);
+}
+
+
+
